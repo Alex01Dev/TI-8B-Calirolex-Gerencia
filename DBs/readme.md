@@ -15,18 +15,7 @@ Las bases de datos se organizan en dos tipos principales:
 - **NoSQL**: Bases de datos no relacionales diseñadas para flexibilidad y escalabilidad, ideales para datos no estructurados o de rápido crecimiento.  
 
 Cada subcarpeta contiene los esquemas, scripts de configuración y documentación específica para cada tipo de base de datos, asegurando un mantenimiento eficiente y estructurado.  
- 
-
-## 📂📂  Estructura de Carpetas
-
-**DBs** 
-
-├── SQL        
-├── NoSQL       
-Deliverables    
-Docs           
-Prototypes     
-QA            
+      
 
 
 ## ✅ Tabla de Revisión  
