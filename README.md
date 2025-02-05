@@ -113,6 +113,9 @@ Desarrollar una plataforma digital integral para la gestión de la información 
 5. **Automatizar el control financiero del gimnasio, gestionando ingresos**, egresos, pagos de salarios y pagos a proveedores de manera eficiente.
 6. **Facilitar la adquisición de nuevos equipos e insumos**, mediante una plataforma que registre y controle las compras necesarias para cada sucursal
 
+## Diagrama de Gantt
+<img src="img/Gantt.png" alt="Diagrama de Gantt" width="800" height="300">
+
 ## Lista de tecnologías
 ### Frontend
 ![Vue.js](https://img.shields.io/badge/Vue.js-4FC08D?style=for-the-badge&logo=vue.js&logoColor=white)
