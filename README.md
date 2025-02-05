@@ -3,18 +3,18 @@
 <table>
   <tr>
     <td style="text-align: center;">
-      <img src="img_logos/logo_gymbulls.jpg" alt="Logo Gimnasio" width="250"/><br>
+      <img src="img/logo_gymbulls.jpg" alt="Logo Gimnasio" width="250"/><br>
       <strong>Logo Gimnasio</strong>
     </td>
     <td style="text-align: center;">
-      <img src="img_logos/logo_equipo.jpg" alt="Logo Equipo" width="250"/><br>
+      <img src="img/logo_equipo.jpg" alt="Logo Equipo" width="250"/><br>
       <strong>Logo de Equipo</strong>
     </td>
   </tr>
 </table>
 
 <div style="text-align: center; margin-top: 30px;">
-  <img src="img_logos/Organigrama_Calirolex.png" alt="Organigrama de Equipo" width="800"/>
+  <img src="img/Organigrama_Calirolex.png" alt="Organigrama de Equipo" width="800"/>
   <p><strong>Organigrama del Equipo</strong></p>
 </div>
 
@@ -82,7 +82,7 @@ Bulls Gym no es solo un gimnasio, es una filosofía de vida donde cada repetici�
 🔥 ¡Únete a la manada y rompe tus límites! 🔥
 
 ## Organigrama del GYM
-<img src="img_logos/Organigrama.png" alt="Organigrama del GYM" width="300" height="200">
+<img src="img/Organigrama.png" alt="Organigrama del GYM" width="300" height="200">
 
 
 ## Planteamiento del Problema
