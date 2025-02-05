@@ -82,7 +82,7 @@ Bulls Gym no es solo un gimnasio, es una filosofía de vida donde cada repetici�
 🔥 ¡Únete a la manada y rompe tus límites! 🔥
 
 ## Organigrama del GYM
-<img src="img/Organigrama.png" alt="Organigrama del GYM" width="300" height="200">
+<img src="img/Organigrama.png" alt="Organigrama del GYM" width="800" height="400">
 
 
 ## Planteamiento del Problema
