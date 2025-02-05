@@ -19,27 +19,7 @@ Las bases de datos SQL se utilizan para manejar información estructurada y cump
 
 Cada subcarpeta cumple un papel esencial en la organización y mantenimiento eficiente de la base de datos.  
 
-
-## 📂📂 Estructura de Carpetas  
-
-**SQL**  
-
-DBs
-
-├── **SQL** 
-
-├──── Backups       
-├──── DataDictionary       
-├──── Diagrams       
-├──── Events       
-├──── Queries       
-├──── Scripts       
-├──── Triggers       
-├── NoSQL       
-Deliverables    
-Docs           
-Prototypes     
-QA     
+ 
 ## ✅ Tabla de Revisión  
 
 <table style="width: 100%; border-collapse: collapse; margin-top: 30px;">
