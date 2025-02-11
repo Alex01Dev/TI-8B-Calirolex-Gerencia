@@ -1,13 +1,14 @@
 # 📂 SQL  
 
-![MySQL](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)  
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=amazon-rds&logoColor=white)  
+![MySQL](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)  ![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=amazon-rds&logoColor=white)  
 
 ## 📁 Descripción  
 
 Esta carpeta contiene la estructura de bases de datos **SQL** utilizadas en el área de **gerencia del gimnasio**. Su propósito es almacenar, organizar y gestionar información transaccional clave, garantizando integridad, consistencia y seguridad en los datos.  
 
-Las bases de datos SQL se utilizan para manejar información estructurada y cumplen con el modelo relacional. Dentro de esta carpeta encontrarás:
+Las bases de datos SQL se utilizan para manejar información estructurada y cumplen con el modelo relacional. 
+
+### 📌 **Subcarpetas**  
 
 - **Backups**: Contiene copias de seguridad de la base de datos para garantizar la recuperación en caso de fallos o pérdida de datos.
 - **DataDictionary**: Incluye el diccionario de datos que describe las tablas, columnas, tipos de datos y relaciones dentro de la base de datos, proporcionando una referencia clara de su estructura.
@@ -19,7 +20,6 @@ Las bases de datos SQL se utilizan para manejar información estructurada y cump
 
 Cada subcarpeta cumple un papel esencial en la organización y mantenimiento eficiente de la base de datos.  
 
- 
 ## ✅ Tabla de Revisión  
 
 <table style="width: 100%; border-collapse: collapse; margin-top: 30px;">
@@ -27,7 +27,7 @@ Cada subcarpeta cumple un papel esencial en la organización y mantenimiento efi
     <tr>
       <th style="border: 1px solid #ddd; padding: 8px; text-align: center;">Colaborador</th>
       <th style="border: 1px solid #ddd; padding: 8px; text-align: center;">Perfil</th>
-      <th style="border: 1px solid #ddd; padding: 8px; text-align: center;">Contribuciones</th>
+      <th style="border: 1px solid #ddd; padding: 8px; text-align: center;">Rol</th>
       <th style="border: 1px solid #ddd; padding: 8px; text-align: center;">Revisión</th>
     </tr>
   </thead>
@@ -42,7 +42,7 @@ Cada subcarpeta cumple un papel esencial en la organización y mantenimiento efi
       <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">Alina Bonilla Paredes</td>
       <td style="border: 1px solid #ddd; padding: 8px; text-align: center;"><a href="https://github.com/Ali-2121" target="_blank">Perfil Alina</a></td>
       <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">Documentadora Técnica</td>
-      <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">❌ Pendiente</td>
+      <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">✅ Revisión completada  </td>
     </tr>
     <tr>
       <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">Carlos Jesus Carballo Cruz</td>
