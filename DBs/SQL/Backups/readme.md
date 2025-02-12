@@ -57,6 +57,3 @@ La carpeta **Backups** almacena copias de seguridad de la base de datos SQL, ase
 > ❌ = Pendiente  
 
 🔒 **Importante:** Se recomienda verificar periódicamente la integridad de los respaldos y almacenarlos en ubicaciones seguras para evitar pérdida de información.  
-
----  
-📌 **Nota:** Para restaurar una copia de seguridad, consulta la documentación correspondiente o contacta al equipo de base de datos.  

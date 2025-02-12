@@ -58,4 +58,3 @@ La carpeta **Automated** contiene copias de seguridad generadas automáticamente
 
 🔄 **Recomendación:** Se recomienda revisar y probar periódicamente los respaldos para garantizar su integridad y funcionalidad en caso de necesidad.  
 
-📌 **Nota:** Para restaurar un backup, consulta la documentación o contacta al equipo de base de datos.  
