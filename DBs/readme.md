@@ -7,7 +7,7 @@
 
 Esta carpeta contiene la estructura de bases de datos utilizadas en el área de **gerencia del gimnasio**. Su propósito es almacenar, organizar y gestionar la información clave relacionada con procesos administrativos del gimnasio.  
 
-Las bases de datos se organizan en dos tipos principales:  
+Las bases de datos se organizan en dos tipos principales::
 
 - **SQL**: Bases de datos relacionales que garantizan integridad y estructura, utilizadas para manejar información transaccional.  
 - **NoSQL**: Bases de datos no relacionales diseñadas para flexibilidad y escalabilidad, ideales para datos no estructurados o de rápido crecimiento.  
