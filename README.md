@@ -1,5 +1,7 @@
 # TI-8B-Calirolex-Gerencia
 
+<div align="center">
+
 <table>
   <tr>
     <td style="text-align: center;">
@@ -12,6 +14,9 @@
     </td>
   </tr>
 </table>
+
+</div>
+
 
 <div style="text-align: center; margin-top: 30px;">
   <img src="img/Organigrama_Calirolex.png" alt="Organigrama de Equipo" width="800"/>
@@ -58,24 +63,24 @@
 # 🏋️‍♂️ Contexto de Negocio - Bulls Gym
 Bulls Gym es un centro de entrenamiento de alto rendimiento enfocado en brindar a sus miembros una experiencia única para alcanzar sus objetivos de acondicionamiento físico. Nuestro enfoque combina instalaciones de primer nivel, entrenadores certificados y una comunidad motivadora que impulsa el progreso de cada atleta.
 
-🎯 Misión
+- 🎯 **Misión**
 Empoderar a nuestros miembros para que alcancen su máximo potencial físico y mental a través de entrenamiento de calidad, tecnología innovadora y un ambiente de apoyo.
 
-👊 Visión
+- 👊 **Visión**
 Ser el gimnasio líder en la comunidad, reconocido por transformar vidas mediante el fitness, la disciplina y la constancia.
 
-💡 Valores
-✅ Disciplina – Creemos en la constancia como clave del éxito.
-✅ Fuerza – No solo física, sino también mental y emocional.
-✅ Comunidad – Fomentamos un ambiente de apoyo y motivación.
-✅ Innovación – Utilizamos tecnología y metodologías avanzadas para optimizar el rendimiento.
+- 💡 **Valores**
+  - Disciplina – Creemos en la constancia como clave del éxito.
+  - Fuerza – No solo física, sino también mental y emocional.
+  - Comunidad – Fomentamos un ambiente de apoyo y motivación.
+  - Innovación – Utilizamos tecnología y metodologías avanzadas para optimizar el rendimiento.
 
-🏆 Diferenciadores
-🔹 Entrenadores especializados en diversas disciplinas (fuerza, resistencia, funcional, HIIT, etc.).
-🔹 Equipamiento de última generación para maximizar el rendimiento.
-🔹 Programas personalizados según objetivos individuales.
-🔹 Clases grupales y entrenamiento personalizado.
-🔹 Aplicación móvil para seguimiento de progreso y reservas.
+- 🏆 **Diferenciadores**
+  - Entrenadores especializados en diversas disciplinas (fuerza, resistencia, funcional, HIIT, etc.).
+  - Equipamiento de última generación para maximizar el rendimiento.
+  - Programas personalizados según objetivos individuales.
+  - Clases grupales y entrenamiento personalizado.
+  - Aplicación móvil para seguimiento de progreso y reservas.
 
 Bulls Gym no es solo un gimnasio, es una filosofía de vida donde cada repetición, cada gota de sudor y cada desafío superado nos acerca a la mejor versión de nosotros mismos.
 
@@ -106,22 +111,23 @@ El módulo de gerencia será el corazón del sistema, permitiendo la supervisió
 Desarrollar una plataforma digital integral para la gestión de la información operativa de un gimnasio, que permita administrar de manera eficiente los datos de los miembros, el seguimiento de entrenamientos, el control de pagos, las reservas de clases y otros procesos administrativos, mejorando así la eficiencia operativa y la experiencia del usuario.
 
 ## ✅ Objetivos Específicos
-1. **Optimizar la gestión y análisis de datos**, recopilando información clave sobre membresías, cancelaciones, quejas, sugerencias, pagos y facturación. 
-2. **Establecer herramientas de monitoreo para clases y actividades**, asegurando estándares de calidad en los servicios del gimnasio.
-3. **Diseñar un sistema de planificación y ejecución de promociones y descuentos**, basados en la demanda y el comportamiento de los clientes.
-4. **Implementar un sistema de evaluación del desempeño del personal**, permitiendo medir y mejorar la eficiencia del equipo de trabajo.
-5. **Automatizar el control financiero del gimnasio, gestionando ingresos**, egresos, pagos de salarios y pagos a proveedores de manera eficiente.
-6. **Facilitar la adquisición de nuevos equipos e insumos**, mediante una plataforma que registre y controle las compras necesarias para cada sucursal
+Aquí tienes los objetivos específicos desglosados en seis puntos:  
+
+1. **Visualizar los datos del gimnasio en gráficos diarios**, incluyendo la cantidad de membresías adquiridas, usuarios por sucursal y número total de clientes.  
+2. **Generar reportes mensuales detallados**, permitiendo analizar tendencias en membresías, clientes y actividad por sucursal.  
+3. **Monitorear el rendimiento de cada sucursal**, evaluando el flujo de clientes y la evolución de las membresías activas.  
+4. **Facilitar la gestión centralizada de la información de las sucursales**, asegurando un acceso rápido y organizado a los datos clave.  
+5. **Automatizar la recopilación y análisis de datos**, reduciendo el tiempo y esfuerzo necesario para evaluar el estado del gimnasio.  
+6. **Optimizar la toma de decisiones** mediante información clara y estructurada sobre el desempeño general del gimnasio y sus sucursales.
 
 ## Diagrama de Gantt
 <img src="img/Gantt.png" alt="Diagrama de Gantt" width="800" height="300">
 
 ## Lista de tecnologías
+
 ### Frontend
 ![Vue.js](https://img.shields.io/badge/Vue.js-4FC08D?style=for-the-badge&logo=vue.js&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Markdown](https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white)
-![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
 
 ### Backend
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
@@ -130,3 +136,12 @@ Desarrollar una plataforma digital integral para la gestión de la información 
 ### Base de Datos
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=database&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![NoSQL](https://img.shields.io/badge/NoSQL-FF6F00?style=for-the-badge&logo=apache-couchdb&logoColor=white)  
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white) 
+
+### Diseño
+![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
+
+### Documentación
+![Markdown](https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white)
+![Swagger](https://img.shields.io/badge/Swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=black)
