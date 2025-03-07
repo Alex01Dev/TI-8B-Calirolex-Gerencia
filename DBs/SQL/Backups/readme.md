@@ -46,7 +46,7 @@ La carpeta **Backups** almacena copias de seguridad de la base de datos SQL, ase
       <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">Jesus Emmanuel Arroyo Rangel</td>
       <td style="border: 1px solid #ddd; padding: 8px; text-align: center;"><a href="https://github.com/des-arrosho" target="_blank">Perfil Arroyo</a></td>
       <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">Desarrollo de Base de Datos</td>
-      <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">❌ Pendiente</td>
+      <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">✅ Revisión completada</td>
     </tr>
   </tbody>
 </table>
