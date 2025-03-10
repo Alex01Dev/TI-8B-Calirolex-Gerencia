@@ -11,7 +11,7 @@ Esta carpeta contiene el prototipo y desarrollo relacionado con la versión web 
 
 Este prototipo web permitirá al área de gerencia del gimnasio:
 
-1. **Visualizar los datos del gimnasio en gráficos diarios**
+1. **Visualizar los datos del gimnasio en gráficos**
 2. **Generar reportes mensuales detallados**
 3. **Monitorear el rendimiento de cada sucursal**
 4. **Facilitar la gestión centralizada de la información de las sucursales**
