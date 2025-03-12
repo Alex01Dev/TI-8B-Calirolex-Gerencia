@@ -1,4 +1,4 @@
-# 📂 Docs (Web Prototype)  
+# 📂 Docs
 
 ![Documentation](https://img.shields.io/badge/Documentation-0078D4?style=for-the-badge&logo=microsoftword&logoColor=white)  
 ![Markdown](https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white)
