@@ -40,7 +40,7 @@ Cada carpeta incluye los diagramas en diferentes formatos (.png, .jpg, .pdf, .dr
       <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">Alex Amauri Marquez Canales</td>
       <td style="border: 1px solid #ddd; padding: 8px; text-align: center;"><a href="https://github.com/Alex01Dev" target="_blank">Perfil Amauri</a></td>
       <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">Líder del Proyecto, Desarrollador Backend</td>
-      <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">❌ Pendiente</td>
+      <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">✅ Revisión completada</td>
     </tr>
     <tr>
       <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">Alina Bonilla Paredes</td>
