@@ -91,7 +91,7 @@ Bulls Gym no es solo un gimnasio, es una filosofía de vida donde cada repetici�
 
 
 ## Planteamiento del Problema
-En la actualidad, los gimnasios con múltiples sucursales enfrentan el reto de administrar eficientemente sus operaciones diarias, desde la gestión de clases y mantenimiento de equipos hasta la implementación de promociones y seguimiento de clientes. La falta de un sistema web centralizado ha generado múltiples inconvenientes que afectan la calidad del servicio y la eficiencia operativa.
+En la actualidad, los gimnasios con múltiples sucursales enfrentan el reto de administrar eficientemente sus operaciones diarias, desde la gestión de clases y mantenimiento de equipos hasta la implementación de promociones y seguimiento de clientes. La falta de un sistema web centralizado ha generado múltiples inconvenientes que afectan la calidad del servicio y la eficiencia operativa
 
 Actualmente, la administración de clases, promociones y mantenimiento se realiza de manera manual, utilizando hojas de cálculo, llamadas telefónicas y comunicación a través de aplicaciones de mensajería. Esto ha derivado en problemas como la falta de control en la programación de clases, errores en la asignación de mantenimiento y demoras en la implementación de promociones. Además, la ausencia de un sistema automatizado impide que los gerentes tengan una visión clara y en tiempo real de las operaciones en cada sucursal, lo que dificulta la toma de decisiones informadas.
 
