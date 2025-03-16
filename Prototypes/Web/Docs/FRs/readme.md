@@ -7,18 +7,6 @@
 
 Esta carpeta contiene los **requisitos funcionales** del módulo de **Gerencia** del sistema web en desarrollo. Los requisitos funcionales describen el comportamiento esperado del sistema y las funcionalidades esenciales que deben implementarse.
 
-<!-- ### 📌 **Subcarpetas**  
-
-- **FRs Generales**: Requisitos funcionales que aplican a todo el módulo de Gerencia.
-- **Gestión de Usuarios**: Funcionalidades relacionadas con la administración de usuarios.
-- **Gestión de Proyectos**: Funcionalidades que permiten la supervisión y administración de proyectos.
-- **Reportes y Análisis**: Requisitos para la generación de informes y visualización de datos.
-- **Seguridad y Accesos**: Reglas sobre autenticación, permisos y control de accesos.
-- **Automatización de Procesos**: Requisitos para la automatización de tareas administrativas.
-
----  
-📌 **Nota:** Para detalles específicos de cada sección, consulta los documentos en cada subcarpeta. -->
-
 
 ## ✅ Tabla de Revisión  
 

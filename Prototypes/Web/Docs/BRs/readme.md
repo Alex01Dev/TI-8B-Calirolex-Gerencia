@@ -5,16 +5,7 @@
 
 ## 📁 Descripción  
 
-Esta carpeta contiene las reglas de negocio aplicadas al módulo de **Gerencia** del sistema web en desarrollo. Las reglas de negocio establecen los lineamientos que rigen la operatividad del módulo, asegurando su correcta implementación y cumplimiento de los objetivos empresariales.
-
-<!-- ### 📌 **Subcarpetas**  
-
-- **BRs Generales**: Reglas de negocio aplicables a todo el módulo de Gerencia.
-- **Gestión de Usuarios**: Reglas que definen la administración de usuarios dentro del módulo.
-- **Gestión de Proyectos**: Lineamientos para la supervisión y administración de proyectos.
-- **Reportes y Análisis**: Normas para la generación de informes y análisis de datos.
-- **Seguridad y Accesos**: Políticas relacionadas con los permisos y niveles de acceso.
-- **Automatización de Procesos**: Reglas para la optimización y automatización de tareas administrativas. -->
+Esta carpeta contiene las reglas de negocio aplicadas al módulo de **Gerencia** del sistema web en desarrollo. Las reglas de negocio establecen los lineamientos que rigen la operatividad del módulo, asegurando su correcta implementación y cumplimiento de los objetivos empresariales.||
 
 ---  
 📌 **Nota:** Para detalles específicos de cada sección, consulta los documentos en cada subcarpeta.
