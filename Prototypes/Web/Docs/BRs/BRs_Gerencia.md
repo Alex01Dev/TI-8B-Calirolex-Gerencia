@@ -1,4 +1,6 @@
-# 📌 Reglas de Negocio - Módulo de Gerencia (Gimnasio)
+# 📌 Reglas de Negocio - Módulo de Gerencia 
+![Documentation](https://img.shields.io/badge/Documentation-Important-orange?style=for-the-badge)
+![Markdown](https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white)
 
 ## 1️⃣ Gestión de Sucursales  
 - 📌 Solo los gerentes podrá **registrar** nuevas sucursales proporcionando:  
@@ -16,9 +18,9 @@
 ## 2️⃣ Visualización de Reportes y Gráficas  
 - 📊 El sistema generará **reportes financieros** basados en las transacciones realizadas en cada sucursal.  
 - 📊 Se mostrarán **gráficas de métricas clave**, tales como:  
-  - Ingresos por sucursal  
-  - Número de membresías activas  
-  - Ingresos por tipo de plan  
+  - Ingresos por sucursal.  
+  - Número de membresías activas.  
+  - Ingresos por tipo de plan. 
 
 - 📊 Solo los gerentes con permisos podrán acceder a estos reportes.  
 
