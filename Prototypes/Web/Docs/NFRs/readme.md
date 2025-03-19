@@ -7,17 +7,6 @@
 
 Esta carpeta contiene los **requisitos no funcionales (NFRs)** del módulo de **Gerencia** del sistema web en desarrollo. Estos requisitos establecen las características de calidad, seguridad y rendimiento que el sistema debe cumplir.
 
-<!-- ### 📌 **Subcategorías de Requisitos No Funcionales**  
-
-- **Rendimiento**: Tiempo de respuesta, escalabilidad y eficiencia del sistema.
-- **Seguridad**: Reglas sobre autenticación, encriptación y manejo de datos sensibles.
-- **Usabilidad**: Experiencia de usuario, accesibilidad y facilidad de uso.
-- **Disponibilidad**: Niveles de servicio, tolerancia a fallos y redundancia.
-- **Compatibilidad**: Soporte en múltiples navegadores y dispositivos.
-- **Mantenibilidad**: Facilidad para aplicar cambios y realizar actualizaciones. -->
-
-
-
 ## ✅ Tabla de Revisión  
 
 <table style="width: 100%; border-collapse: collapse; margin-top: 30px;">

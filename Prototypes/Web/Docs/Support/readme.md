@@ -9,7 +9,7 @@ Esta carpeta contiene la documentación esencial para la correcta instalación y
 
 ### 📌 **Subcarpetas**  
 
-- **InstallationManual**: Guía detallada sobre la instalación y configuración del sistema, incluyendo requisitos y pasos necesarios para su implementación.
+- **InstallationManual**: Guía detallada sobre la instalación y configuración del sistema y pasos necesarios para su implementación para los desarrolladores.
 
 - **UserManual**: Documentación orientada a los usuarios finales, explicando el uso de las funcionalidades principales del sistema.
 

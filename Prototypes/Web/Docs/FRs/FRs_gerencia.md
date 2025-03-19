@@ -1,4 +1,7 @@
-# 📌 Requerimientos Funcionales - Módulo de Gerencia (Gimnasio)
+# 📌 Requerimientos Funcionales - Módulo de Gerencia 
+
+![Documentation](https://img.shields.io/badge/Documentation-Important-orange?style=for-the-badge)
+![Markdown](https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white)
 
 ## 1️⃣ Gestión de Sucursales  
 
