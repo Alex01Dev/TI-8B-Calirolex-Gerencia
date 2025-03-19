@@ -43,7 +43,7 @@
 ---
 
 ### RF-04 Consultar lista de sucursales  
-**Descripción:** El sistema debe permitir que el gerente visualice una lista de todas las sucursales registradas.  
+**Descripción:** El sistema debe permitir que el gerente visualice todas las sucursales registradas.  
 
 | Desarrollador | Rol           | Validado | Comentarios |
 |--------------|--------------|----------|-------------|
@@ -55,31 +55,43 @@
 
 ## 2️⃣ Visualización de Reportes y Gráficas  
 
-### RF-05 Generar reportes de transacciones  
-**Descripción:** El sistema debe generar reportes financieros basados en las transacciones realizadas en cada sucursal.  
+### RF-05 Mostrar tabla dinámica de transacciones  
+**Descripción:** El sistema debe mostrar una tabla dinámica que represente todas las transacciones realizadas. Esta tabla debe permitir filtrar y ordenar los datos según diferentes criterios para facilitar su análisis.
 
-| Desarrollador | Rol           | Validado | Comentarios |
-|--------------|--------------|----------|-------------|
-| Carlos J. Carballo        | Frontend     | ❌ No    |             |
-| Alex A. Marquez        | Backend      | ❌ No   |             |
-| Jesús E. Arroyo       | Base de datos | ❌ No    | Falta... |
-| Alina Bonilla      | Documentador | ✅ Sí    |  
-
----
-
-### RF-06 Visualizar gráficas de métricas  
-**Descripción:** El sistema debe mostrar gráficas que representen el desempeño financiero de las sucursales.  
-
-| Desarrollador | Rol           | Validado | Comentarios |
-|--------------|--------------|----------|-------------|
-| Carlos J. Carballo        | Frontend     | ❌ No    |             |
-| Alex A. Marquez        | Backend      | ❌ No   |             |
-| Jesús E. Arroyo       | Base de datos | ❌ No    | Falta... |
-| Alina Bonilla      | Documentador | ✅ Sí    |  
+| Desarrollador       | Rol           | Validado | Comentarios |
+|---------------------|---------------|----------|-------------|
+| Carlos J. Carballo  | Frontend      | ❌ No     |             |
+| Alex A. Marquez     | Backend       | ❌ No     |             |
+| Jesús E. Arroyo     | Base de datos | ❌ No     | Falta...    |
+| Alina Bonilla       | Documentador  | ✅ Sí     |             |
 
 ---
 
-### RF-07 Exportar reportes  
+### RF-06 Mostrar tabla dinámica de transacciones por mes  
+**Descripción:** El sistema debe mostrar una tabla dinámica que represente las transacciones desglosadas por mes. Esta tabla debe permitir filtrar y ordenar los datos por mes y otros criterios relevantes.
+
+| Desarrollador       | Rol           | Validado | Comentarios |
+|---------------------|---------------|----------|-------------|
+| Carlos J. Carballo  | Frontend      | ❌ No     |             |
+| Alex A. Marquez     | Backend       | ❌ No     |             |
+| Jesús E. Arroyo     | Base de datos | ❌ No     | Falta...    |
+| Alina Bonilla       | Documentador  | ✅ Sí     |             |
+
+---
+
+### RF-07 Asignar gráficas a tablas dinámicas  
+**Descripción:**  El sistema debe asociar a cada tabla dinámica, tanto la de transacciones generales como la de transacciones por mes, una gráfica que permita visualizar la información de manera clara y detallada.
+
+| Desarrollador       | Rol           | Validado | Comentarios |
+|---------------------|---------------|----------|-------------|
+| Carlos J. Carballo  | Frontend      | ❌ No     |             |
+| Alex A. Marquez     | Backend       | ❌ No     |             |
+| Jesús E. Arroyo     | Base de datos | ❌ No     | Falta...    |
+| Alina Bonilla       | Documentador  | ✅ Sí     |             |
+
+---
+
+### RF-08 Exportar reportes  
 **Descripción:** El sistema debe permitir la exportación de reportes en formato PDF.  
 
 | Desarrollador | Rol           | Validado | Comentarios |
@@ -93,7 +105,7 @@
 
 ## 3️⃣ Gestión de Datos Personales del Gerente  
 
-### RF-08 Actualizar datos personales  
+### RF-09 Actualizar datos personales  
 **Descripción:** El sistema debe permitir que el gerente actualice su información personal, incluyendo  dirección y teléfono.  
 
 | Desarrollador | Rol           | Validado | Comentarios |
@@ -107,7 +119,7 @@
 ---
 ## 2️⃣ Transacciones 
 
-### RF-09 Registrar nueva transacción  
+### RF-10 Registrar nueva transacción  
 **Descripción:** El sistema debe permitir que un gerente registre manualmente una nueva transacción financiera, especificando el tipo de transacción, el monto, tipo de pago, detalles y el usuario.
 
 | Desarrollador        | Rol           | Validado | Comentarios                      |
@@ -119,7 +131,7 @@
 
 ---
 
-### RF-10 Visualizar transacciones en una tabla  
+### RF-11 Visualizar transacciones en una tabla  
 **Descripción:** El sistema debe permitir que el gerente visualice una tabla con el historial de transacciones, mostrando los detalles de cada transacción.
 | Desarrollador        | Rol           | Validado | Comentarios                      |
 |----------------------|--------------|----------|----------------------------------|
