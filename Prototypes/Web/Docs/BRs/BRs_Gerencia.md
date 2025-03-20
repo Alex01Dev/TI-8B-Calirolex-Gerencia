@@ -1,45 +1,52 @@
 # 📌 Reglas de Negocio - Módulo de Gerencia 
 ![Documentation](https://img.shields.io/badge/Documentation-Important-orange?style=for-the-badge)
 ![Markdown](https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white)
+![Regla de Negocio](https://img.shields.io/badge/Regla%20de%20Negocio-2C3E50?style=for-the-badge&logo=briefcase&logoColor=white)
+
 
 ## 1️⃣ Gestión de Sucursales  
 - 📌 Solo los gerentes podrá **registrar** nuevas sucursales proporcionando:  
   - Nombre  
   - Dirección  
-  - Teléfono de contacto  
+  - Enca
   - Horario de operación  
 
 - 📌 Solo los gerentes autorizados podrán **actualizar** los datos de una sucursal.  
-- 📌 Una sucursal solo podrá ser **eliminada** si se ha llegado a ese acuerdo con las partes responsables.
-- 📌 Solo los gerentes podrá **consultar** una lista de todas las sucursales y sus detalles en tiempo real.  
+- 📌 Solo los gerentes podrá **consultar** una lista de todas las sucursales y sus detalles.  
+
+---
+## 2️⃣  Transacciones
+- 📌 Una transacción debe estar asociada a un usuario.  
+- 📌 Una transacción de tipo **ingreso** debe estar vinculada a un servicio o producto que ofrezca el gimnasio.  
+- 📌 Una transacción de tipo **egreso** debe estar vinculada a un gasto operativo relacionado con el gimnasio, como mantenimiento, salarios o insumos.  
+- 📌 Cada transacción deberá tener un registro de **fecha y hora de creación**, así como el usuario que la generó.  
+- 📌 No se podrán realizar transacciones con **fechas futuras** a la fecha actual.  
+- 📌 **No se permiten valores negativos** en los montos de las transacciones.  
+- 📌 **No está permitido eliminar transacciones**, deberá mantenerse su registro en el sistema, invluso si la sucursal es eliminada.
+
+## 3️⃣ **Generación de Reportes Mensuales**  
+- 📌 Los reportes mensuales solo podrán generarse para **fechas anteriores o hasta la fecha actual**. No se permiten reportes con fechas futuras.  
+- 📌 Los gerentes podrán generar reportes con filtros.
+- 📌 Los reportes generados deberán contar con:  
+  - Fecha de creación   
+  - Intervalo de fechas del reporte  
+- 📌 Los reportes históricos no podrán ser modificados, solo visualizados o descargados.  
+- 📌 Solo los gerentes podrán exportar los reportes en formatos como **PDF**.
 
 ---
 
-## 2️⃣ Visualización de Reportes y Gráficas  
-- 📊 El sistema generará **reportes financieros** basados en las transacciones realizadas en cada sucursal.  
-- 📊 Se mostrarán **gráficas de métricas clave**, tales como:  
-  - Ingresos por sucursal.  
-  - Número de membresías activas.  
-  - Ingresos por tipo de plan. 
-
-- 📊 Solo los gerentes con permisos podrán acceder a estos reportes.  
-
----
-
-## 3️⃣ Gestión de Datos Personales del Gerente  
-- ✅ Cada gerente podrá **actualizar** su información personal, incluyendo:    
-  - Dirección  
-  - Teléfono  
- 
-- ✅ El sistema validará que los datos ingresados sean correctos y estén en el formato adecuado (ej. correo válido, teléfono con el formato correcto).  
-- ✅ No se permitirá que un gerente **modifique los datos de otro gerente**, solo los suyos propios.  
+## 4️⃣ **Base de Datos**  
+- 📌 Toda transacción (ingreso o egreso) deberá ser registrada en la base de datos con un ID único.  
+- 📌 El campo **fecha de creación** en las transacciones se generará automáticamente con la fecha y hora del servidor.  
+- 📌 Los registros eliminados en el sistema no serán eliminados físicamente de la base de datos, sino que se marcarán como **'inactivos'** o **'anulados'**.  
+- 📌 Se debe mantener un registro de auditoría (bitácora) con la siguiente información:  
+  - Usuario que realizó la operación  
+  - Fecha y hora de la acción  
+  - Tipo de operación (Create, Read, Update, Delete)  
+  - Descripción detallada de la acción  
+- 📌 Los campos relacionados con fechas no podrán almacenar valores posteriores a la fecha actual del servidor.     
 
 ---
 
-## 4️⃣ Seguridad y Accesos  
-- 🔒 Solo los usuarios con **rol de gerente** podrán acceder a este módulo.  
-- 🔒 El sistema contará con **restricciones de acceso** basadas en permisos para evitar modificaciones no autorizadas.  
-
----
 
 
