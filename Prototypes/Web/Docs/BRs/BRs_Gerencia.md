@@ -48,5 +48,9 @@
 
 ---
 
+## 🔒 **5️⃣ Autenticación **  
+- 📌 Solo los **gerentes autenticados** podrán acceder al módulo de gerencia.  
+- 📌 Los gerentes deberán **iniciar sesión** con sus credenciales (usuario y contraseña) para visualizar, registrar, actualizar o eliminar información en el módulo.  
+- 📌 Si la sesión expira o el usuario no está autenticado, se debe redirigir a la página de inicio de sesión.  
 
 

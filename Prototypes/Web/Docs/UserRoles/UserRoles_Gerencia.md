@@ -142,9 +142,6 @@ El rol de **Visitante** representa a los usuarios no registrados que acceden al 
   </tbody>
 </table>
 
----
-
-📌 **Nota:** Esta documentación define los roles del sistema web del gimnasio, sus permisos y funciones para garantizar un control adecuado del acceso y la gestión de la información.  
-👉 **Todos los roles** tienen permitido **comprar servicios y productos** del gimnasio, sin restricciones. 🚀  
+--- 
 
 📌 **Nota:** Esta documentación define los roles del sistema web del gimnasio, sus permisos y funciones para garantizar un control adecuado del acceso y la gestión de la información. 🚀  
