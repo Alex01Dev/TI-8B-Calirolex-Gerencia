@@ -2,6 +2,8 @@
 
 ![Documentation](https://img.shields.io/badge/Documentation-Important-orange?style=for-the-badge)
 ![Markdown](https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white)
+![Requerimientos No Funcionales](https://img.shields.io/badge/Requerimientos%20No%20Funcionales-8E44AD?style=for-the-badge&logo=gear&logoColor=white)
+
 
 ### RNF-01 Tiempo de Respuesta
 **Descripción:** El sistema debe garantizar que las respuestas a las acciones del usuario no excedan los 2 segundos en operaciones comunes y los 5 segundos en generación de reportes.
