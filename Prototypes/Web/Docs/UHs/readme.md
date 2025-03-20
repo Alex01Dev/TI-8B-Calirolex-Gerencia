@@ -1,23 +1,23 @@
- # 📂 UHs (User Help) 
+# 📂 UserStories  
 
-![User Help](https://img.shields.io/badge/User_Help-0078D4?style=for-the-badge&logo=microsoftword&logoColor=white)  
-![Markdown](https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white)
+![User Stories](https://img.shields.io/badge/User%20Stories-Agile-blue?style=for-the-badge)  
+![Scrum](https://img.shields.io/badge/Scrum-Framework-green?style=for-the-badge)  
+![User-Centric](https://img.shields.io/badge/User%20Centric-Experience-purple?style=for-the-badge)  
 
-## 📁 Descripción  
+---
 
-Esta carpeta contiene la documentación de **ayuda para los usuarios (UHs)** del módulo de **Gerencia** en el sistema web en desarrollo. Aquí se incluyen manuales y guías para asistir a los usuarios en el uso de las funcionalidades del sistema.
+## 📁 **Descripción**  
 
-<!-- ### 📌 **Subcategorías de Ayuda al Usuario**  
+Esta carpeta contiene la documentación de las **historias de usuario** del sistema web del gimnasio.  
+Las historias de usuario describen de forma clara y concisa las necesidades y expectativas de los usuarios finales, facilitando la comprensión de los requerimientos funcionales desde la perspectiva del usuario.  
 
-- **Manuales de Usuario**: Documentación detallada sobre el uso del sistema.
-- **Preguntas Frecuentes (FAQs)**: Respuestas a las dudas más comunes.
-- **Guías Rápidas**: Instrucciones resumidas para tareas específicas.
-- **Tutoriales**: Pasos detallados en formato escrito o visual.
-- **Solución de Problemas**: Resolución de errores y problemas frecuentes. -->
+El objetivo de las **historias de usuario** es:  
+1. **Definir las funcionalidades clave** del sistema de forma clara y comprensible.  
+2. **Priorizar las necesidades** según el valor que aportan al usuario.  
+3. **Facilitar la planificación ágil** para la implementación.  
+4. **Alinear el desarrollo** con las expectativas del usuario final.  
 
----  
-📌 **Nota:** Para detalles específicos de cada sección, consulta los documentos en cada subcategoría.
-
+---
 
 ## ✅ Tabla de Revisión  
 
@@ -35,7 +35,7 @@ Esta carpeta contiene la documentación de **ayuda para los usuarios (UHs)** del
       <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">Alex Amauri Marquez Canales</td>
       <td style="border: 1px solid #ddd; padding: 8px; text-align: center;"><a href="https://github.com/Alex01Dev" target="_blank">@Amauri</a></td>
       <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">Líder del Proyecto, Desarrollador Backend</td>
-      <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">❌ Pendiente</td>
+      <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">✅ Revisión completada</td>
     </tr>
     <tr>
       <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">Alina Bonilla Paredes</td>
@@ -47,13 +47,13 @@ Esta carpeta contiene la documentación de **ayuda para los usuarios (UHs)** del
       <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">Carlos Jesus Carballo Cruz</td>
       <td style="border: 1px solid #ddd; padding: 8px; text-align: center;"><a href="https://github.com/CarlosJ67" target="_blank">@Carballo</a></td>
       <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">Desarrollador Frontend</td>
-      <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">❌ Pendiente</td>
+      <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">✅ Revisión completada<</td>
     </tr>
     <tr>
       <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">Jesus Emmanuel Arroyo Rangel</td>
       <td style="border: 1px solid #ddd; padding: 8px; text-align: center;"><a href="https://github.com/des-arrosho" target="_blank">@Arroyo</a></td>
       <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">Desarrollo de Base de Datos</td>
-      <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">❌ Pendiente</td>
+      <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">✅ Revisión completada<</td>
     </tr>
   </tbody>
 </table>
