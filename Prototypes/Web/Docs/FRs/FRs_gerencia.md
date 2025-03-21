@@ -8,7 +8,7 @@
 ## 1️⃣ Gestión de Sucursales  
 
 ### RF-01 Registrar sucursal  
-**Descripción:** El sistema debe permitir que un usuario del tipo gerente registre una nueva sucursal proporcionando nombre, dirección, gerente encargado y horario de operación.  
+**Descripción:** El sistema debe permitir que un usuario del tipo gerente registre una nueva sucursal proporcionando nombre, dirección, gerente encargado, capacidad máxima  y horario de operación.  
 
 | Desarrollador | Rol           | Validado | Comentarios |
 |--------------|--------------|----------|-------------|

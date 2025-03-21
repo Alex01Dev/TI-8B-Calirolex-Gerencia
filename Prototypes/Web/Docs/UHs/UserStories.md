@@ -1,154 +1,144 @@
+# 📌 **Historias de Usuario - Módulo de Gerencia (Sistema Web Gimnasio)**  
+![User Stories](https://img.shields.io/badge/User%20Stories-Important-orange?style=for-the-badge)  
 
-## 🔥 **Formato de las Historias de Usuario**
 
-Cada historia de usuario está redactada siguiendo la estructura estándar:  
+## 🛠️ **1️⃣ Gestión de Sucursales**  
 
-✅ **Como [rol o tipo de usuario]**,  
-✅ **Quiero [acción o funcionalidad específica]**,  
-✅ **Para [beneficio o valor esperado]**.  
+### ✅ **HU-01: Registrar una nueva sucursal**  
+**Como** gerente del gimnasio,  
+**Quiero** registrar una nueva sucursal proporcionando su nombre, dirección, gerente encargado, capacidad máxima y horario de operación,  
+**Para que** pueda expandir las operaciones del gimnasio y llevar un control adecuado de las sucursales.  
 
----
+**Criterios de Aceptación:**  
+- El sistema debe validar que solo los gerentes puedan registrar nuevas sucursales.    
+- No debe ser posible registrar dos sucursales con la misma dirección.  
+- El registro debe quedar almacenado en la base de datos con la fecha de creación.  
+  
 
-## 📝 **Historias de Usuario por Módulo**
+---  
+### ✅ **HU-02: Actualizar la información de una sucursal**  
+**Como** gerente del gimnasio,  
+**Quiero** actualizar la información de una sucursal,  
+**Para que** los datos reflejen la información más reciente.  
 
-### 🛠️ **1. Gestión de Sucursales**  
+**Criterios de Aceptación:**  
+- Solo los gerentes pueden actualizar la información.  
+- El sistema debe mostrar un mensaje de confirmación al finalizar la actualización.  
+- La base de datos debe mantener un registro del historial de actualizaciones.  
+- Los cambios se reflejan inmediatamente en la interfaz de usuario.  
 
-- 📌 **HU01:**  
-  **Como** administrador,  
-  **Quiero** registrar nuevas sucursales,  
-  **Para** expandir la cobertura del gimnasio.  
+---  
+### ✅ **HU-03: Eliminar una sucursal **  
+**Como** gerente del gimnasio,  
+**Quiero** poder eliminar una sucursal,  
+**Para que** ya no esté disponible para las operaciones del sistema.  
 
-- 📌 **HU02:**  
-  **Como** administrador,  
-  **Quiero** modificar la información de las sucursales,  
-  **Para** mantener la información actualizada.  
+**Criterios de Aceptación:**  
+- Solo los gerentes pueden eliminar sucursales.  
+- La sucursal no se eliminará físicamente de la base de datos, sino que se marcará como inactiva.  
+- El sistema debe mostrar una advertencia antes de confirmar la acción.  
+- No se deben perder las transacciones asociadas a la sucursal eliminada.  
+  
 
-- 📌 **HU03:**  
-  **Como** gerente,  
-  **Quiero** consultar la lista de sucursales,  
-  **Para** verificar el estado de cada una.  
+---  
+### ✅ **HU-04: Consultar lista de sucursales**  
+**Como** gerente del gimnasio,  
+**Quiero** visualizar la lista de sucursales registradas,  
+**Para que** pueda revisar la información de cada sucursal.  
 
-- 📌 **HU04:**  
-  **Como** administrador,  
-  **Quiero** cambiar el estatus de las sucursales a "Inactiva" en lugar de eliminarlas,  
-  **Para** preservar el historial de datos.  
+**Criterios de Aceptación:**  
+- Solo los gerentes pueden acceder a esta lista de sucursales.  
+- La lista debe incluir nombre, dirección, gerente encargado y horario de operación.   
 
----
+---  
 
-### 💳 **2. Transacciones**
+## 📊 **2️⃣ Visualización de Reportes y Gráficas**  
 
-- 📌 **HU05:**  
-  **Como** gerente,  
-  **Quiero** registrar ingresos asociados a servicios o productos,  
-  **Para** llevar un control financiero preciso.  
+### ✅ **HU-05: Ver tabla dinámica de transacciones**  
+**Como** gerente del gimnasio,  
+**Quiero** visualizar una tabla dinámica con todas las transacciones realizadas,  
+**Para que** pueda filtrar, ordenar y analizar las operaciones financieras.  
 
-- 📌 **HU06:**  
-  **Como** administrador,  
-  **Quiero** registrar egresos relacionados con mantenimiento o gastos operativos,  
-  **Para** controlar los costos del gimnasio.  
+**Criterios de Aceptación:**  
+- Solo los gerentes pueden visualizar las transacciones.  
+- La tabla debe permitir filtrar la información.   
+- El sistema debe mostrar el total de ingresos y egresos.  
 
-- 📌 **HU07:**  
-  **Como** gerente,  
-  **Quiero** consultar el historial de transacciones,  
-  **Para** auditar las operaciones financieras.  
+---  
+### ✅ **HU-06: Ver tabla dinámica de ingresos y egresos por mes**  
+**Como** gerente del gimnasio,  
+**Quiero** visualizar una tabla dinámica con los ingresos y egresos mensuales,  
+**Para que** pueda analizar la evolución financiera del gimnasio.  
 
-- 📌 **HU08:**  
-  **Como** administrador,  
-  **Quiero** evitar que se registren transacciones con valores negativos,  
-  **Para** garantizar la integridad financiera del sistema.  
+**Criterios de Aceptación:**  
+- Solo los gerentes pueden acceder a esta tabla.  
+- Debe mostrar subtotales por mes y tipo de transacción.  
 
----
+---  
+### ✅ **HU-07: Asignar gráficas a las tablas dinámicas**  
+**Como** gerente del gimnasio,  
+**Quiero** visualizar gráficas asociadas a las tablas de transacciones e ingresos/egresos mensuales,  
+**Para que** pueda interpretar visualmente la información financiera.  
 
-### 📊 **3. Reportes Mensuales**
+**Criterios de Aceptación:**  
+- Solo los gerentes pueden acceder a las gráficas.  
+- La gráfica debe actualizarse automáticamente al modificar los filtros de la tabla.  
+- Los datos deben coincidir con los valores mostrados en la tabla.  
 
-- 📌 **HU09:**  
-  **Como** administrador,  
-  **Quiero** generar reportes mensuales con las transacciones agrupadas por sucursal,  
-  **Para** analizar el rendimiento financiero.  
+---  
+### ✅ **HU-08: Exportar reportes en PDF**  
+**Como** gerente del gimnasio,  
+**Quiero** exportar los reportes financieros en formato PDF,  
+**Para que** pueda compartirlos o almacenarlos para referencia futura.  
 
-- 📌 **HU10:**  
-  **Como** gerente,  
-  **Quiero** exportar los reportes mensuales en formato PDF o Excel,  
-  **Para** facilitar su presentación a la directiva.  
+**Criterios de Aceptación:**  
+- Solo los gerentes pueden exportar reportes.  
+- El reporte debe incluir fecha de creación y rango de fechas.  
+- Debe mostrar el total de ingresos y egresos del período seleccionado.  
+- El PDF debe estar correctamente formateado y legible.  
+  
+---  
 
-- 📌 **HU11:**  
-  **Como** administrador,  
-  **Quiero** asegurar que los reportes solo incluyan transacciones hasta la fecha actual,  
-  **Para** evitar datos incoherentes o futuros.  
+## 👤 **3️⃣ Gestión de Datos Personales del Gerente**  
 
----
+### ✅ **HU-09: Actualizar datos personales del gerente**  
+**Como** gerente del gimnasio,  
+**Quiero** actualizar mi información personal (dirección, teléfono),  
+**Para que** el sistema tenga mis datos actualizados.  
 
-### 🛡️ **4. Seguridad y Autenticación**
+**Criterios de Aceptación:**  
+- Solo el usuario autenticado puede actualizar sus datos personales.  
+- El sistema debe validar que los campos sean correctos (teléfono, dirección).  
+- Los cambios deben reflejarse inmediatamente en la base de datos.  
 
-- 📌 **HU12:**  
-  **Como** cliente,  
-  **Quiero** iniciar sesión con mis credenciales,  
-  **Para** acceder a mis datos personales y reservas.  
+---  
 
-- 📌 **HU13:**  
-  **Como** administrador,  
-  **Quiero** gestionar los permisos de cada rol,  
-  **Para** controlar el acceso a funciones sensibles.  
+## 💳 **4️⃣ Transacciones**  
 
-- 📌 **HU14:**  
-  **Como** cliente,  
-  **Quiero** poder restablecer mi contraseña en caso de olvido,  
-  **Para** recuperar el acceso a mi cuenta.  
+### ✅ **HU-10: Registrar una nueva transacción manualmente**  
+**Como** gerente del gimnasio,  
+**Quiero** registrar una nueva transacción financiera,  
+**Para que** pueda agregar manualmente ingresos o egresos.  
 
----
+**Criterios de Aceptación:**  
+- Los gerentes pueden registrar transacciones.  
+- El sistema debe validar que los montos sean positivos.  
+- No debe ser posible registrar transacciones con fechas futuras.  
+- El sistema debe asociar la transacción a un usuario.  
+- La transacción debe quedar almacenada en la base de datos con fecha, hora y usuario.  
 
-### 🏋️‍♀️ **5. Reservas de Clases**
+---  
+### ✅ **HU-11: Visualizar historial de transacciones**  
+**Como** gerente del gimnasio,  
+**Quiero** visualizar una tabla con el historial completo de transacciones,  
+**Para que** pueda consultar y analizar los detalles financieros.  
 
-- 📌 **HU15:**  
-  **Como** cliente,  
-  **Quiero** consultar la disponibilidad de clases grupales,  
-  **Para** seleccionar la que más me convenga.  
-
-- 📌 **HU16:**  
-  **Como** recepcionista,  
-  **Quiero** registrar la asistencia a las clases,  
-  **Para** llevar un control de participación.  
-
-- 📌 **HU17:**  
-  **Como** gerente,  
-  **Quiero** generar reportes de asistencia por clase,  
-  **Para** evaluar la popularidad y el desempeño de las clases.  
-
----
-
-## ✅ **Tabla de Priorización**
-
-<table style="width: 100%; border-collapse: collapse; margin-top: 30px;">
-  <thead>
-    <tr>
-      <th style="border: 1px solid #ddd; padding: 8px; text-align: center;">ID</th>
-      <th style="border: 1px solid #ddd; padding: 8px; text-align: center;">Historia de Usuario</th>
-      <th style="border: 1px solid #ddd; padding: 8px; text-align: center;">Prioridad</th>
-      <th style="border: 1px solid #ddd; padding: 8px; text-align: center;">Estado</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="border: 1px solid #ddd; text-align: center;">HU01</td>
-      <td style="border: 1px solid #ddd;">Registrar nuevas sucursales</td>
-      <td style="border: 1px solid #ddd; text-align: center;">Alta</td>
-      <td style="border: 1px solid #ddd; text-align: center;">✅ Completada</td>
-    </tr>
-    <tr>
-      <td style="border: 1px solid #ddd; text-align: center;">HU05</td>
-      <td style="border: 1px solid #ddd;">Registrar ingresos asociados a servicios</td>
-      <td style="border: 1px solid #ddd; text-align: center;">Media</td>
-      <td style="border: 1px solid #ddd; text-align: center;">⏳ En proceso</td>
-    </tr>
-    <tr>
-      <td style="border: 1px solid #ddd; text-align: center;">HU09</td>
-      <td style="border: 1px solid #ddd;">Generar reportes mensuales</td>
-      <td style="border: 1px solid #ddd; text-align: center;">Alta</td>
-      <td style="border: 1px solid #ddd; text-align: center;">❌ Pendiente</td>
-    </tr>
-  </tbody>
-</table>
+**Criterios de Aceptación:**  
+- Solo los gerentes pueden acceder al historial.  
+- La tabla debe permitir filtrar por fecha, tipo (ingreso/egreso), usuario o sucursal.  
+- Los datos deben mostrar detalles como fecha, monto, tipo de pago y descripción.  
+- No debe ser posible eliminar transacciones.  
 
 ---
 
-📌 **Nota:** Esta documentación detalla las historias de usuario del sistema web del gimnasio, facilitando la comprensión de los requerimientos desde la perspectiva del usuario final. 🚀  
+✅ **Estas historias de usuario** cubren las funcionalidades principales del **módulo de gerencia** del sistema web para la gestión del gimnasio, asegurando que las operaciones financieras, la administración de sucursales y la gestión de datos personales estén alineadas con las reglas de negocio.

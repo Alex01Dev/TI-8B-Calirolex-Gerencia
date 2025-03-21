@@ -13,7 +13,7 @@ Esta carpeta contiene la documentación relacionada con el desarrollo del protot
 - **FRs (Functional Requirements)**: Contiene los requisitos funcionales que definen el comportamiento del sistema.
 - **GUI (Graphical User Interface)**: Especificaciones y diseños de la interfaz gráfica de usuario.
 - **NFRs (Non-Functional Requirements)**: Requisitos no funcionales como rendimiento, seguridad y usabilidad.
-- **Support**: Documentación de soporte técnico y guías de solución de problemas.
+- **Support**: Documentación de soporte técnico y guías uso del software.
 - **UHs (User Help)**: Historias de usuario.
 - **UserRoles**: Definición y descripción de los roles de usuario dentro del sistema.
 
