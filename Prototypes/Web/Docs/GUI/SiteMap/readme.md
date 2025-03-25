@@ -12,7 +12,9 @@ Esta carpeta contiene el **mapa del sitio** web del módulo de gerencia del gimn
 - Jerarquía de páginas y módulos  
 - Explicación de conexiones entre secciones  
 
-📌 **Nota:** Para más detalles sobre la estructura, revisa los archivos en esta carpeta.
+<a href="https://www.figma.com/design/X4vpE4kdvlr0SrHOrX34Vm/gymbulls?node-id=4-2&t=I08TNJKiMGRdzfiy-1" target="_blank">Sitemap en figma</a>
+
+📌 **Nota:** Para más detalles sobre la estructura, revisa el documento en Figma.
 
 ## ✅ Tabla de Revisión  
 

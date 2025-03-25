@@ -6,7 +6,7 @@ Aquí se presentan los 12 bocetos de las interfaces en una tabla organizada.
 |----|----------------------------|-------------|
 | 1  | Home de Gerencia       |<img src="../../../../../img/sketches/home_gerencia.JPG" width="450px" height="350px"> |
 | 2  | Registro usuario | <img src="../../../../../img/sketches/register_gerencia.JPG" width="450px" height="350px">  |
-| 3  | Login usuario | <img src="../../../../../img/sketches/login_gerencia.JPGG" width="450px" height="350px">  |
+| 3  | Login usuario | <img src="../../../../../img/sketches/login_gerencia.JPG" width="450px" height="350px">  |
 | 4  | Dashboard  | <img src="../../../../../img/sketches/dashboard_gerencia.JPG" width="450px" height="350px">  |
 | 5  | Tabla transacciones  | <img src="../../../../../img/sketches/transacciones_gerencia.JPG" width="450px" height="350px">  |
 | 6  | Registrar transacción  | <img src="../../../../../img/sketches/nueva_transs_gerencia.JPG" width="450px" height="350px">  |

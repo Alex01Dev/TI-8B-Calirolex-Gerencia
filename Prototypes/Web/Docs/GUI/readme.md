@@ -1,6 +1,7 @@
 # 📂 GUI (Graphical User Interface) 
 
-![Graphical User Interface](https://img.shields.io/badge/GUI-0078D4?style=for-the-badge&logo=adobe&logoColor=white)  
+![Graphical User Interface](https://img.shields.io/badge/GUI-0078D4?style=for-the-badge&logo=adobe&logoColor=white) 
+![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)    
 ![Markdown](https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white)
 
 ## 📁 Descripción  
@@ -16,7 +17,7 @@ Esta carpeta contiene los elementos de diseño de la **interfaz gráfica de usua
 - **Wireframes**: Estructuras básicas de las pantallas del sistema.
 
 ---  
-📌 **Nota:** Para detalles específicos de cada sección, consulte los documentos en cada subcarpeta.
+📌 **Nota:** Para detalles específicos de cada sección, consulte los documentos en cada subcarpeta y los archivos en Figma.
 
 
 ## ✅ Tabla de Revisión  

@@ -11,8 +11,10 @@ Esta carpeta contiene los **mockups** de alta fidelidad del sistema web del mód
 
 - Mockups de cada pantalla del sistema web para el módulo de gerencia 
 
+<a href="https://www.figma.com/design/X4vpE4kdvlr0SrHOrX34Vm/gymbulls?node-id=4-2&t=I08TNJKiMGRdzfiy-1" target="_blank">Mockups en figma</a>
 
-📌 **Nota:** Para visualizar los archivos, consulta los documentos en esta carpeta.
+
+📌 **Nota:** Para visualizar los archivos, dale clic al link para poder verlo en figma.
 
 ## ✅ Tabla de Revisión  
 
