@@ -10,16 +10,6 @@ Este documento está dirigido a los usuarios finales del sistema de gestión del
 
 ---
 
-## 🏋️‍♂️ **Acceso al Sistema**  
-
-### 🔹 **1️⃣ Inicio de Sesión**  
-1. Abre el navegador y dirígete a la URL del sistema.  
-2. Ingresa tu **usuario y contraseña**.  
-3. Haz clic en **"Iniciar sesión"**.  
-
-
----
-
 ## 📌 **Funciones Principales**  
 
 ### 🔹 **Gestión de Sucursales**  

@@ -26,7 +26,6 @@
 
 ## 3️⃣ **Generación de Reportes Mensuales**  
 - 📌 Los reportes mensuales solo podrán generarse para **fechas anteriores o hasta la fecha actual**. No se permiten reportes con fechas futuras.  
-- 📌 Los gerentes podrán generar reportes con filtros.
 - 📌 Los reportes generados deberán contar con:  
   - Fecha de creación   
   - Intervalo de fechas del reporte  

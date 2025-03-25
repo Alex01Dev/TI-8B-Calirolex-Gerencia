@@ -1,6 +1,7 @@
  # 📂 Wireframes
 
-![UI Design](https://img.shields.io/badge/UI-Wireframes-gray?style=for-the-badge)  
+![UI Design](https://img.shields.io/badge/UI-Wireframes-gray?style=for-the-badge) 
+![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)   
 
 ## 📁 Descripción  
 
@@ -11,7 +12,9 @@ Esta carpeta contiene los **wireframes** de baja fidelidad para la interfaz del 
 - Esquemas de la disposición de elementos  
 - Distribución de contenido en cada pantalla  
 
-📌 **Nota:** Para más información, revisa los archivos dentro de esta carpeta.
+<a href="https://www.figma.com/design/X4vpE4kdvlr0SrHOrX34Vm/gymbulls?node-id=0-1&t=I08TNJKiMGRdzfiy-1">Wireframes en figma</a>
+
+📌 **Nota:** Para más información, revisa el archivo en Figma.
 
 ## ✅ Tabla de Revisión  
 

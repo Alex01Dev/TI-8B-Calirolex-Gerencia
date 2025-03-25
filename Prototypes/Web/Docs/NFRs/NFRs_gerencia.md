@@ -6,25 +6,25 @@
 
 
 ### RNF-01 Tiempo de Respuesta
-**Descripción:** El sistema debe garantizar que las respuestas a las acciones del usuario no excedan los 2 segundos en operaciones comunes y los 5 segundos en generación de reportes.
+**Descripción:** El sistema debe garantizar que las respuestas a las acciones del usuario no excedan los 5 segundos en operaciones comunes y los 5 segundos en generación de reportes.
 
 | Desarrollador | Rol           | Validado | Comentarios |
 |--------------|--------------|----------|-------------|
-| Carlos J. Carballo        | Frontend     | ❌ No    |             |
-| Alex A. Marquez        | Backend      | ❌ No   |             |
-| Jesús E. Arroyo       | Base de datos | ❌ No    | Falta... |
+| Carlos J. Carballo        | Frontend     | ✅ Sí     |             |
+| Alex A. Marquez        | Backend      | ✅ Sí    |             |
+| Jesús E. Arroyo       | Base de datos | ✅ Sí    | |
 | Alina Bonilla      | Documentador | ✅ Sí    |  
 
 ---
 
-### RNF-02 Capacidad de Concurrencia
-**Descripción:** El sistema debe ser capaz de soportar un aumento de concurrencia sin afectar el rendimiento.
+### RNF-02 Capacidad de Escalabilidad
+**Descripción:** El sistema debe ser capaz de manejar un aumento en la cantidad de usuarios simultáneos sin degradar el rendimiento.
 
 | Desarrollador | Rol           | Validado | Comentarios |
 |--------------|--------------|----------|-------------|
-| Carlos J. Carballo        | Frontend     | ❌ No    |             |
-| Alex A. Marquez        | Backend      | ❌ No   |             |
-| Jesús E. Arroyo       | Base de datos | ❌ No    | Falta... |
+| Carlos J. Carballo        | Frontend     | ✅ Sí    |             |
+| Alex A. Marquez        | Backend      | ✅ Sí   |             |
+| Jesús E. Arroyo       | Base de datos | ✅ Sí     |  |
 | Alina Bonilla      | Documentador | ✅ Sí    |  
 
 ---
@@ -34,9 +34,9 @@
 
 | Desarrollador | Rol           | Validado | Comentarios |
 |--------------|--------------|----------|-------------|
-| Carlos J. Carballo        | Frontend     | ❌ No    |             |
-| Alex A. Marquez        | Backend      | ❌ No   |             |
-| Jesús E. Arroyo       | Base de datos | ❌ No    | Falta... |
+| Carlos J. Carballo        | Frontend     | ✅ Sí     |             |
+| Alex A. Marquez        | Backend      | ✅ Sí   |             |
+| Jesús E. Arroyo       | Base de datos | ✅ Sí     |  |
 | Alina Bonilla      | Documentador | ✅ Sí    |  
 
 ---
@@ -46,9 +46,9 @@
 
 | Desarrollador | Rol           | Validado | Comentarios |
 |--------------|--------------|----------|-------------|
-| Carlos J. Carballo        | Frontend     | ❌ No    |             |
-| Alex A. Marquez        | Backend      | ❌ No   |             |
-| Jesús E. Arroyo       | Base de datos | ❌ No    | Falta... |
+| Carlos J. Carballo        | Frontend     | ✅ Sí     |             |
+| Alex A. Marquez        | Backend      | ✅ Sí   |             |
+| Jesús E. Arroyo       | Base de datos | ✅ Sí     |  |
 | Alina Bonilla      | Documentador | ✅ Sí    |  
 
 ---
@@ -58,9 +58,9 @@
 
 | Desarrollador | Rol           | Validado | Comentarios |
 |--------------|--------------|----------|-------------|
-| Carlos J. Carballo        | Frontend     | ❌ No    |             |
-| Alex A. Marquez        | Backend      | ❌ No   |             |
-| Jesús E. Arroyo       | Base de datos | ❌ No    | Falta... |
+| Carlos J. Carballo        | Frontend     | ✅ Sí    |             |
+| Alex A. Marquez        | Backend      | ✅ Sí    |             |
+| Jesús E. Arroyo       | Base de datos | ✅ Sí    | Falta... |
 | Alina Bonilla      | Documentador | ✅ Sí    |  
 
 ---
@@ -70,9 +70,9 @@
 
 | Desarrollador | Rol           | Validado | Comentarios |
 |--------------|--------------|----------|-------------|
-| Carlos J. Carballo        | Frontend     | ❌ No    |             |
-| Alex A. Marquez        | Backend      | ❌ No   |             |
-| Jesús E. Arroyo       | Base de datos | ❌ No    | Falta... |
+| Carlos J. Carballo        | Frontend     | ✅ Sí     |             |
+| Alex A. Marquez        | Backend      | ✅ Sí    |             |
+| Jesús E. Arroyo       | Base de datos | ✅ Sí     | Falta... |
 | Alina Bonilla      | Documentador | ✅ Sí    |  
 
 ---
@@ -82,9 +82,9 @@
 
 | Desarrollador | Rol           | Validado | Comentarios |
 |--------------|--------------|----------|-------------|
-| Carlos J. Carballo        | Frontend     | ❌ No    |             |
-| Alex A. Marquez        | Backend      | ❌ No   |             |
-| Jesús E. Arroyo       | Base de datos | ❌ No    | Falta... |
+| Carlos J. Carballo        | Frontend     | ✅ Sí    |             |
+| Alex A. Marquez        | Backend      | ✅ Sí    |             |
+| Jesús E. Arroyo       | Base de datos | ✅ Sí    | |
 | Alina Bonilla      | Documentador | ✅ Sí    |  
 
 ---
@@ -94,9 +94,9 @@
 
 | Desarrollador | Rol           | Validado | Comentarios |
 |--------------|--------------|----------|-------------|
-| Carlos J. Carballo        | Frontend     | ❌ No    |             |
-| Alex A. Marquez        | Backend      | ❌ No   |             |
-| Jesús E. Arroyo       | Base de datos | ❌ No    | Falta... |
+| Carlos J. Carballo        | Frontend     | ✅ Sí     |             |
+| Alex A. Marquez        | Backend      | ✅ Sí    |             |
+| Jesús E. Arroyo       | Base de datos | ✅ Sí    | |
 | Alina Bonilla      | Documentador | ✅ Sí    |  
 
 ---
@@ -106,9 +106,9 @@
 
 | Desarrollador | Rol           | Validado | Comentarios |
 |--------------|--------------|----------|-------------|
-| Carlos J. Carballo        | Frontend     | ❌ No    |             |
-| Alex A. Marquez        | Backend      | ❌ No   |             |
-| Jesús E. Arroyo       | Base de datos | ❌ No    | Falta... |
+| Carlos J. Carballo        | Frontend     | ✅ Sí     |             |
+| Alex A. Marquez        | Backend      | ✅ Sí    |             |
+| Jesús E. Arroyo       | Base de datos | ✅ Sí    |  |
 | Alina Bonilla      | Documentador | ✅ Sí    |  
 
 ---
@@ -118,9 +118,9 @@
 
 | Desarrollador | Rol           | Validado | Comentarios |
 |--------------|--------------|----------|-------------|
-| Carlos J. Carballo        | Frontend     | ❌ No    |             |
-| Alex A. Marquez        | Backend      | ❌ No   |             |
-| Jesús E. Arroyo       | Base de datos | ❌ No    | Falta... |
+| Carlos J. Carballo        | Frontend     | ✅ Sí    |             |
+| Alex A. Marquez        | Backend      | ✅ Sí    |             |
+| Jesús E. Arroyo       | Base de datos | ✅ Sí     | |
 | Alina Bonilla      | Documentador | ✅ Sí    |  
 
 ---
@@ -130,9 +130,9 @@
 
 | Desarrollador | Rol           | Validado | Comentarios |
 |--------------|--------------|----------|-------------|
-| Carlos J. Carballo        | Frontend     | ❌ No    |             |
-| Alex A. Marquez        | Backend      | ❌ No   |             |
-| Jesús E. Arroyo       | Base de datos | ❌ No    | Falta... |
+| Carlos J. Carballo        | Frontend     | ✅ Sí  |             |
+| Alex A. Marquez        | Backend      | ✅ Sí  |             |
+| Jesús E. Arroyo       | Base de datos | ✅ Sí    |  |
 | Alina Bonilla      | Documentador | ✅ Sí    |  
 
 ---

@@ -12,7 +12,9 @@ En esta carpeta se encuentra el **prototipo navegacional** del sistema web para 
 - Enlaces interactivos entre las pantallas  
 - Flujos de usuario simulados  
 
-📌 **Nota:** Para probar el prototipo, consulta el archivo de documentación o accede al enlace correspondiente.
+<a href="https://www.figma.com/proto/X4vpE4kdvlr0SrHOrX34Vm/gymbulls?node-id=32-181&p=f&t=qlMC043OCMqnPiYd-1&scaling=min-zoom&content-scaling=fixed&page-id=4%3A2&starting-point-node-id=32%3A181">Prototipo navegacional en figma</a>
+
+📌 **Nota:** Para probar el prototipo, accede al link para probarlo en Figma
 
 ## ✅ Tabla de Revisión  
 
