@@ -1,7 +1,9 @@
 # 📂 Bases de Datos  
 
-![MySQL](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)  ![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=amazon-rds&logoColor=white)  
-![NoSQL](https://img.shields.io/badge/NoSQL-FF6F00?style=for-the-badge&logo=apache-couchdb&logoColor=white)  ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)  
+![MySQL](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)  
+![Workbench](https://img.shields.io/badge/Workbench-0277BD?style=for-the-badge&logo=mysql&logoColor=white)    
+![NoSQL](https://img.shields.io/badge/NoSQL-FF6F00?style=for-the-badge&logo=apache-couchdb&logoColor=white)  ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white) 
+![Mongo Atlas](https://img.shields.io/badge/Mongo%20Atlas-47A248?style=for-the-badge&logo=mongodb&logoColor=white)   
 
 ## 📁 Descripción  
 

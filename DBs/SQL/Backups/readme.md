@@ -1,5 +1,8 @@
  # 📂 Backups  
-![MySQL](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)  ![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=amazon-rds&logoColor=white)  
+![MySQL](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)  
+![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)  
+![Backup](https://img.shields.io/badge/Backup-4CAF50?style=for-the-badge&logo=databricks&logoColor=white)  
+![MySQL Shell](https://img.shields.io/badge/MySQL_Shell-FF9800?style=for-the-badge&logo=mysql&logoColor=white)  
 
 ## 📁 Descripción  
 

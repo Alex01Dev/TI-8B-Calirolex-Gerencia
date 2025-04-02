@@ -3,7 +3,7 @@
 
 ## 📁 Descripción  
 
-La carpeta **Partial** almacena copias de seguridad parciales de la base de datos SQL, creadas manualmente. Estas backups incluyen elementos específicos, como tablas individuales, registros críticos o configuraciones esenciales.  
+La carpeta **Partial** almacena copias de seguridad parciales de la base de datos SQL, creadas manualmente. Estas backups incluyen tablas específicas.
 
 ### 📌 **Características**  
 
