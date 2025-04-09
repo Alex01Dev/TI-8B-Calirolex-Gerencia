@@ -54,7 +54,7 @@
 ---
 
 ### RNF-05 Compatibilidad con Dispositivos
-**Descripción:** El sistema debe ser responsive y funcionar correctamente en computadoras y tabletas de diferentes tamaños.
+**Descripción:** El sistema  funcionar correctamente en computadoras y tabletas de diferentes tamaños.
 
 | Desarrollador | Rol           | Validado | Comentarios |
 |--------------|--------------|----------|-------------|
