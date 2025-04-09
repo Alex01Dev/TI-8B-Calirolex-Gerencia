@@ -1,5 +1,8 @@
 # 📂 Manual  
-![MySQL](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)  ![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=amazon-rds&logoColor=white)  
+![MySQL](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)  ![MySQL Shell](https://img.shields.io/badge/MySQL_Shell-FF9800?style=for-the-badge&logo=mysql&logoColor=white)  
+![Backup](https://img.shields.io/badge/Backup-4CAF50?style=for-the-badge&logo=databricks&logoColor=white)  
+![Manual](https://img.shields.io/badge/Manual-9C27B0?style=for-the-badge&logo=bookstack&logoColor=white)  
+
 
 ## 📁 Descripción  
 

@@ -1,9 +1,15 @@
 # 📂 Full  
-![MySQL](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)  ![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=amazon-rds&logoColor=white)  
+![MySQL](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)  
+![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)  
+![Backup](https://img.shields.io/badge/Backup-4CAF50?style=for-the-badge&logo=databricks&logoColor=white) 
+![Full](https://img.shields.io/badge/Full-1976D2?style=for-the-badge&logo=verizon&logoColor=white)  
+![.bat](https://img.shields.io/badge/-bat-616161?style=for-the-badge&logo=gnu-bash&logoColor=white) 
+![Automated](https://img.shields.io/badge/Automated-4CAF50?style=for-the-badge&logo=robot-framework&logoColor=white)  
+
 
 ## 📁 Descripción  
 
-La carpeta **Full** contiene copias de seguridad completas de la base de datos SQL. Estas backups incluyen toda la estructura y los datos almacenados, asegurando que el sistema pueda ser restaurado en su totalidad en caso de fallos críticos.  
+La carpeta **Full** contiene copias de seguridad completas de la base de datos SQL. Estas backups incluyen toda la estructura y los datos almacenados, asegurando que el sistema pueda ser restaurado en su totalidad en caso de fallos críticos. Además del archivo .bat y un manual para realizar estas backups.  
 
 ### 📌 **Características**  
 

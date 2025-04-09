@@ -1,6 +1,6 @@
 # 📂 USPS
 
-![MySQL](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)  ![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=amazon-rds&logoColor=white) 
+![MySQL](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)  ![Workbench](https://img.shields.io/badge/Workbench-0277BD?style=for-the-badge&logo=mysql&logoColor=white)  
 ![Database](https://img.shields.io/badge/USPS-4E9A29?style=for-the-badge&logo=database&logoColor=white)
 
 ## 📁 Descripción  
