@@ -45,7 +45,7 @@ Cada esquema está estructurado con un **ODM**, facilitando la integración con 
       <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">Carlos Jesus Carballo Cruz</td>
       <td style="border: 1px solid #ddd; padding: 8px; text-align: center;"><a href="https://github.com/CarlosJ67" target="_blank">@Carballo</a></td>
       <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">Desarrollador Frontend</td>
-      <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">❌ Pendiente</td>
+      <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">✅ Revisión completada</td>
     </tr>
     <tr>
       <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">Jesus Emmanuel Arroyo Rangel</td>
