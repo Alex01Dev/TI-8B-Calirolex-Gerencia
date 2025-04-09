@@ -5,19 +5,20 @@
 
 
 ## 1️⃣ Gestión de Sucursales  
-- 📌 Solo los gerentes podrá **registrar** nuevas sucursales proporcionando:  
-  - Nombre  
-  - Dirección  
-  - Enca
-  - Horario de operación  
+- 📌 Solo los gerentes podrá **registrar** nuevas sucursales proporcionando:
+  - Nombre de la sucursal
+  - Dirección 
+  - Teléfono
+  - Correo 
+  - Gerente encargado 
+  - Capacidad Máxima
 
-- 📌 Solo los gerentes autorizados podrán **actualizar** los datos de una sucursal.  
-- 📌 Solo los gerentes podrá **consultar** una lista de todas las sucursales y sus detalles.  
+- 📌 Solo los usuarios del tipo gerente podrán **actualizar** los datos de una sucursal.  
+- 📌 Solo los usuarios del tipo gerente podrán **consultar** una lista de todas las sucursales y sus detalles.  
 
 ---
 ## 2️⃣  Transacciones
-- 📌 Una transacción debe estar asociada a un usuario.  
-- 📌 Una transacción de tipo **ingreso** debe estar vinculada a un servicio o producto que ofrezca el gimnasio.  
+- 📌 Una transacción debe estar asociada a un usuario.   
 - 📌 Una transacción de tipo **egreso** debe estar vinculada a un gasto operativo relacionado con el gimnasio, como mantenimiento, salarios o insumos.  
 - 📌 Cada transacción deberá tener un registro de **fecha y hora de creación**, así como el usuario que la generó.  
 - 📌 No se podrán realizar transacciones con **fechas futuras** a la fecha actual.  
@@ -29,8 +30,7 @@
 - 📌 Los reportes generados deberán contar con:  
   - Fecha de creación   
   - Intervalo de fechas del reporte  
-- 📌 Los reportes históricos no podrán ser modificados, solo visualizados o descargados.  
-- 📌 Solo los gerentes podrán exportar los reportes en formatos como **PDF**.
+- 📌 Los reportes históricos no podrán ser modificados, solo visualizados.  
 
 ---
 
@@ -39,7 +39,6 @@
 - 📌 El campo **fecha de creación** en las transacciones se generará automáticamente con la fecha y hora del servidor.  
 - 📌 Los registros eliminados en el sistema no serán eliminados físicamente de la base de datos, sino que se marcarán como **'inactivos'** o **'anulados'**.  
 - 📌 Se debe mantener un registro de auditoría (bitácora) con la siguiente información:  
-  - Usuario que realizó la operación  
   - Fecha y hora de la acción  
   - Tipo de operación (Create, Read, Update, Delete)  
   - Descripción detallada de la acción  
