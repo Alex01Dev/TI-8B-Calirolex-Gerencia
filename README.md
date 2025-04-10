@@ -129,6 +129,13 @@ Aquí tienes los objetivos específicos desglosados en seis puntos:
 ## Diagrama de Gantt
 <img src="img/Gantt.png" alt="Diagrama de Gantt" width="800" height="300">
 
+---
+
+## Diagrama WBS
+<img src="img/diagrama_wbs.png" alt="Diagrama WBS" width="900" height="700">
+
+---
+
 ## Lista de tecnologías
 
 ### Frontend
