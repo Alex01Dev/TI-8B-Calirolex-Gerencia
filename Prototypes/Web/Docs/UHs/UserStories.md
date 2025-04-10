@@ -6,15 +6,13 @@
 
 ### ✅ **HU-01: Registrar una nueva sucursal**  
 **Como** gerente del gimnasio,  
-**Quiero** registrar una nueva sucursal proporcionando su nombre, dirección, gerente encargado, capacidad máxima y horario de operación,  
+**Quiero** registrar una nueva sucursal proporcionando su nombre, dirección, gerente encargado, capacidad máxima,  
 **Para que** pueda expandir las operaciones del gimnasio y llevar un control adecuado de las sucursales.  
 
 **Criterios de Aceptación:**  
-- El sistema debe validar que solo los gerentes puedan registrar nuevas sucursales.    
-- No debe ser posible registrar dos sucursales con la misma dirección.  
+- El sistema debe validar que solo los gerentes puedan registrar nuevas sucursales.     
 - El registro debe quedar almacenado en la base de datos con la fecha de creación.  
   
-
 ---  
 ### ✅ **HU-02: Actualizar la información de una sucursal**  
 **Como** gerente del gimnasio,  
@@ -22,8 +20,7 @@
 **Para que** los datos reflejen la información más reciente.  
 
 **Criterios de Aceptación:**  
-- Solo los gerentes pueden actualizar la información.  
-- El sistema debe mostrar un mensaje de confirmación al finalizar la actualización.  
+- Solo los gerentes pueden actualizar la información.   
 - La base de datos debe mantener un registro del historial de actualizaciones.  
 - Los cambios se reflejan inmediatamente en la interfaz de usuario.  
 
@@ -38,7 +35,6 @@
 - La sucursal no se eliminará físicamente de la base de datos, sino que se marcará como inactiva.  
 - El sistema debe mostrar una advertencia antes de confirmar la acción.  
 - No se deben perder las transacciones asociadas a la sucursal eliminada.  
-  
 
 ---  
 ### ✅ **HU-04: Consultar lista de sucursales**  
@@ -48,7 +44,7 @@
 
 **Criterios de Aceptación:**  
 - Solo los gerentes pueden acceder a esta lista de sucursales.  
-- La lista debe incluir nombre, dirección, gerente encargado y horario de operación.   
+- La lista debe incluir nombre, dirección, gerente encargado.   
 
 ---  
 
@@ -57,12 +53,11 @@
 ### ✅ **HU-05: Ver tabla dinámica de transacciones**  
 **Como** gerente del gimnasio,  
 **Quiero** visualizar una tabla dinámica con todas las transacciones realizadas,  
-**Para que** pueda filtrar, ordenar y analizar las operaciones financieras.  
+**Para que** pueda ver las transacciones financieras realizadas y buscar alguna en particular.  
 
 **Criterios de Aceptación:**  
 - Solo los gerentes pueden visualizar las transacciones.  
-- La tabla debe permitir filtrar la información.   
-- El sistema debe mostrar el total de ingresos y egresos.  
+- La tabla debe permitir buscar la información.   
 
 ---  
 ### ✅ **HU-06: Ver tabla dinámica de ingresos y egresos por mes**  
@@ -88,14 +83,12 @@
 ---  
 ### ✅ **HU-08: Exportar reportes en PDF**  
 **Como** gerente del gimnasio,  
-**Quiero** exportar los reportes financieros en formato PDF,  
+**Quiero** exportar la gráfica de reportes mensuales en formato SVG, PNG o CSV,  
 **Para que** pueda compartirlos o almacenarlos para referencia futura.  
 
 **Criterios de Aceptación:**  
-- Solo los gerentes pueden exportar reportes.  
-- El reporte debe incluir fecha de creación y rango de fechas.  
+- Solo los gerentes pueden exportar reportes.  chas.  
 - Debe mostrar el total de ingresos y egresos del período seleccionado.  
-- El PDF debe estar correctamente formateado y legible.  
   
 ---  
 
@@ -103,7 +96,7 @@
 
 ### ✅ **HU-09: Actualizar datos personales del gerente**  
 **Como** gerente del gimnasio,  
-**Quiero** actualizar mi información personal (dirección, teléfono),  
+**Quiero** actualizar mi información personal (Nombre,dirección, teléfono),  
 **Para que** el sistema tenga mis datos actualizados.  
 
 **Criterios de Aceptación:**  
@@ -123,7 +116,6 @@
 **Criterios de Aceptación:**  
 - Los gerentes pueden registrar transacciones.  
 - El sistema debe validar que los montos sean positivos.  
-- No debe ser posible registrar transacciones con fechas futuras.  
 - El sistema debe asociar la transacción a un usuario.  
 - La transacción debe quedar almacenada en la base de datos con fecha, hora y usuario.  
 
@@ -135,7 +127,7 @@
 
 **Criterios de Aceptación:**  
 - Solo los gerentes pueden acceder al historial.  
-- La tabla debe permitir filtrar por fecha, tipo (ingreso/egreso), usuario o sucursal.  
+- La tabla debe permitir buscar en ella.  
 - Los datos deben mostrar detalles como fecha, monto, tipo de pago y descripción.  
 - No debe ser posible eliminar transacciones.  
 
