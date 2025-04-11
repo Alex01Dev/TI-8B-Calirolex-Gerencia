@@ -1,4 +1,6 @@
+
 # 📘 Manual: Exportación Parcial de una Base de Datos con MySQL Shell
+
 
 ## 🛠 Requisitos Previos
 - Tener **MySQL Shell** instalado en tu sistema.
@@ -43,12 +45,25 @@ mysqldump -u [usuario] -p[contraseña] [nombre_base_datos] [nombre_tabla] > resp
 ## 🚀 Paso 4: Verificar el Respaldo
 Cuando el proceso termine, en la carpeta `respaldo_tabla` estarán todos los archivos generados.
 
+Para exportar completamente una base de datos, usa el siguiente comando:
+
+```sql
+util.dumpInstance("respaldo_completo", {"ocimds": false})
+```
+
+### 🔹 Explicación del comando
+- `util.dumpInstance("respaldo_completo")` → Realiza un volcado de toda la instancia y lo guarda en la carpeta `respaldo_completo`.
+- `{"ocimds": false}` → Opción recomendada para evitar problemas de compatibilidad con almacenamiento en la nube.
+
+## 🚀 Paso 4: Verificar el Respaldo
+Cuando el proceso termine, en la carpeta `respaldo_completo` estarán todos los archivos generados.
+
 ## 🚀 Paso 5: Restaurar el Respaldo (Opcional)
 Si deseas restaurar la base de datos, usa el siguiente comando en MySQL Shell:
 
 ```sql
+
 util.loadDump("respaldo_tabla", {"schema":"nombre_de_tu_bd"})
-```
 
 ---
 📌 **Consejo:** Se recomienda programar respaldos periódicos para evitar la pérdida de información. 🚀
